@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
@@ -14,6 +14,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 2", "Day 2", "{6E9827EE-D6E0-4E03-829F-D72B32BE66C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Project1\Project1.csproj", "{C4D05DD3-899E-4299-8DA7-E9A3A5F4B508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project2", "Project2\Project2.csproj", "{244DEC64-13F1-47BA-9FE9-F590900EE2E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{C4D05DD3-899E-4299-8DA7-E9A3A5F4B508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D05DD3-899E-4299-8DA7-E9A3A5F4B508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D05DD3-899E-4299-8DA7-E9A3A5F4B508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244DEC64-13F1-47BA-9FE9-F590900EE2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244DEC64-13F1-47BA-9FE9-F590900EE2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244DEC64-13F1-47BA-9FE9-F590900EE2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244DEC64-13F1-47BA-9FE9-F590900EE2E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
