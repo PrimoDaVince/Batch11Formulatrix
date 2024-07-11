@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Internal H2/1.0.0": {
+        "runtime": {
+          "Internal H2.dll": {}
+        }
+      },
+      "Internal H1/1.0.0": {
+        "runtime": {
+          "Internal H1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Internal H2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Internal H1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
