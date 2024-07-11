@@ -18,7 +18,7 @@ class Phone
 	this.soc=soc;
 	this.size=size;
 	this.ram=ram;	
-	Console.WriteLine($"Phone Created :{}");		
+	Console.WriteLine($"Phone Created :{screen}");		
 	}
 	public Phone(int size,int ram)
 	{
