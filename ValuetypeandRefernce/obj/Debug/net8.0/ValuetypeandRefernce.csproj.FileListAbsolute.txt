@@ -1,0 +1,15 @@
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\bin\Debug\net8.0\ValuetypeandRefernce.exe
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\bin\Debug\net8.0\ValuetypeandRefernce.deps.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\bin\Debug\net8.0\ValuetypeandRefernce.runtimeconfig.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\bin\Debug\net8.0\ValuetypeandRefernce.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\bin\Debug\net8.0\ValuetypeandRefernce.pdb
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\obj\Debug\net8.0\ValuetypeandRefernce.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\obj\Debug\net8.0\ValuetypeandRefernce.AssemblyInfoInputs.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\obj\Debug\net8.0\ValuetypeandRefernce.AssemblyInfo.cs
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\obj\Debug\net8.0\ValuetypeandRefernce.csproj.CoreCompileInputs.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\obj\Debug\net8.0\ValuetypeandRefernce.sourcelink.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\obj\Debug\net8.0\ValuetypeandRefernce.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\obj\Debug\net8.0\refint\ValuetypeandRefernce.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\obj\Debug\net8.0\ValuetypeandRefernce.pdb
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\obj\Debug\net8.0\ValuetypeandRefernce.genruntimeconfig.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\ValuetypeandRefernce\obj\Debug\net8.0\ref\ValuetypeandRefernce.dll
