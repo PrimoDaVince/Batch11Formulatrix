@@ -19,7 +19,7 @@ class ElectricEngine : IEngine, IHeat
 	public void Start()
 	{
 		
-		Console.WriteLine("Engine Starto");
+		Console.WriteLine("Engine Start");
 	}
 	public void Stop()
 	{
