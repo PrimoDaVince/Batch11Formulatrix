@@ -1,23 +1,29 @@
 ﻿class Program
 {
 	
-	static void Main(string[] args)
+	static void Main()
 	{
 		int n = 15;
-		for (int i = 1; i < n; i++)
+		string a="foo";
+		string b="bar";
+		for (int i = 1; i <= n; i++)
 		{
-			if(i/3==0)
+			if(i%5 == 0 && i%3==0)
 			{
-				Console.Write("Foo");
+				Console.WriteLine(a+b);
 			}
-			if(i/5==0)
+			else if(i%5 ==0)
 			{
-				
+				Console.WriteLine(a);
 			}
-			
-				Console.WriteLine(i);
-			
+			else if(i%3 ==0)
+			{
+				Console.WriteLine(b);
+			}
+			else
+			{
+				Console.WriteLine(i);			
+			}
 		}
-		
 	}
 }
