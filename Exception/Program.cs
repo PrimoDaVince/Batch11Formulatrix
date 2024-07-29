@@ -4,7 +4,7 @@
 	Console.WriteLine("Program Running...");
 	try{
 			int[]myArray = null;
-			myArray[4].Dump();
+			Console.WriteLine(myArray[4]);
 		}
 	catch(FormatException e){
 			Console.WriteLine("General Exception");
