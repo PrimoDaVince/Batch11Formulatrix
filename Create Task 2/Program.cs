@@ -8,28 +8,34 @@ class Program
 		Task t1 = Task.Run(() => Print());
 		Task t2 = Task.Run(() => Fax());
 		Task t3 = Task.Run(() => Scan());
+		Task t4 = Task.Run(() => Add(2,3));
 
 		Task.WaitAll(t1, t2, t3);
 		//Task.WaitAny(t1, t2, t3);
 		
 		Console.WriteLine("Program finished");
 	}
-	static void Print() 
+	static async Task  Print() 
 	{
 		Console.WriteLine("Print start");
-		Thread.Sleep(10000);
+		await Task.Delay(10000);
 		Console.WriteLine("Print finished");
 	}
-	static void Fax() 
+	static async Task  Fax() 
 	{
 		Console.WriteLine("Fax start");
-		Thread.Sleep(11000);
+		await Task.Delay(1150);
 		Console.WriteLine("Fax finished");
 	}
-	static void Scan() 
+	static async Task  Scan() 
 	{
 		Console.WriteLine("Scan start");
-		Thread.Sleep(5000);
+		await Task.Delay(11000);
 		Console.WriteLine("Scan finished");
+	}
+	static async Task<int> Add(int a, int b) 
+	{
+		await Task.Delay(11000);
+		return a + b;
 	}
 }

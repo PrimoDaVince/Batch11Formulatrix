@@ -161,6 +161,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskExceptionHandle", "Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cencelation Token", "Cencelation Token\Cencelation Token.csproj", "{704EAEE7-8117-4B36-9C23-B6F8F4AFE5FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cencelation Token Try", "Cencelation Token Try\Cencelation Token Try.csproj", "{541F40CB-BDAB-4FDC-A467-CD6A3E7FD589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lock_RaceCondition", "Lock_RaceCondition\Lock_RaceCondition.csproj", "{A23F1EE2-81CF-4576-9C28-5E45BB057FF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore", "Semaphore\Semaphore.csproj", "{3A42F9AB-FD26-42FA-A70B-1F84CE8A9602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadLockExample", "DeadLockExample\DeadLockExample.csproj", "{32930F2D-6F67-4E5F-82C6-5A02766CB59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStreamExample", "FileStreamExample\FileStreamExample.csproj", "{8B963337-5666-458E-81EE-DC6056CB30A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStreanRW", "FileStreanRW\FileStreanRW.csproj", "{3ED51772-CE66-4FED-ABFA-1B94980EC0AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -443,6 +455,30 @@ Global
 		{704EAEE7-8117-4B36-9C23-B6F8F4AFE5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{704EAEE7-8117-4B36-9C23-B6F8F4AFE5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{704EAEE7-8117-4B36-9C23-B6F8F4AFE5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541F40CB-BDAB-4FDC-A467-CD6A3E7FD589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541F40CB-BDAB-4FDC-A467-CD6A3E7FD589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541F40CB-BDAB-4FDC-A467-CD6A3E7FD589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541F40CB-BDAB-4FDC-A467-CD6A3E7FD589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23F1EE2-81CF-4576-9C28-5E45BB057FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23F1EE2-81CF-4576-9C28-5E45BB057FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23F1EE2-81CF-4576-9C28-5E45BB057FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23F1EE2-81CF-4576-9C28-5E45BB057FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A42F9AB-FD26-42FA-A70B-1F84CE8A9602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A42F9AB-FD26-42FA-A70B-1F84CE8A9602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A42F9AB-FD26-42FA-A70B-1F84CE8A9602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A42F9AB-FD26-42FA-A70B-1F84CE8A9602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32930F2D-6F67-4E5F-82C6-5A02766CB59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32930F2D-6F67-4E5F-82C6-5A02766CB59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32930F2D-6F67-4E5F-82C6-5A02766CB59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32930F2D-6F67-4E5F-82C6-5A02766CB59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B963337-5666-458E-81EE-DC6056CB30A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B963337-5666-458E-81EE-DC6056CB30A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B963337-5666-458E-81EE-DC6056CB30A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B963337-5666-458E-81EE-DC6056CB30A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED51772-CE66-4FED-ABFA-1B94980EC0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED51772-CE66-4FED-ABFA-1B94980EC0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED51772-CE66-4FED-ABFA-1B94980EC0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED51772-CE66-4FED-ABFA-1B94980EC0AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
