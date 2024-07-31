@@ -1,4 +1,4 @@
-namespace Poker;
+namespace SuitEnum;
 
 public enum Suit
 {

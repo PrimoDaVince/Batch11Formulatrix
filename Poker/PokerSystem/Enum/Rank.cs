@@ -1,4 +1,4 @@
-namespace Poker;
+namespace RankEnum;
 
 public enum Rank
 {
