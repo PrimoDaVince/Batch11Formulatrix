@@ -1,7 +1,18 @@
 namespace Poker;
 
-public class Player
+public class Player:IPlayer
 {
-	int id;
-	string name;
+	public int id{ get; set; }
+	public string name{ get; set; }
+	
+	public Player(int Id)
+	{
+		int id = Id;
+	}
+	public Player (int Id, string Name)
+	
+	{
+		id = Id;
+		name = Name;
+	}
 }

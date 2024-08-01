@@ -187,6 +187,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContractSerialization",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContractSerialization_Json", "DataContractSerialization_Json\DataContractSerialization_Json.csproj", "{BB209B0D-AF13-4293-AB60-CEF7B8396CAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayingCardMakerJSon", "PlayingCardMakerJSon\PlayingCardMakerJSon.csproj", "{1FD93393-9FB1-492B-A2C9-ACF50B83EC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayingCardJsonTester", "PlayingCardJsonTester\PlayingCardJsonTester.csproj", "{495C84D7-FD3A-4EEF-A83F-87A13A74CB9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -521,6 +525,14 @@ Global
 		{BB209B0D-AF13-4293-AB60-CEF7B8396CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB209B0D-AF13-4293-AB60-CEF7B8396CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB209B0D-AF13-4293-AB60-CEF7B8396CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD93393-9FB1-492B-A2C9-ACF50B83EC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD93393-9FB1-492B-A2C9-ACF50B83EC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD93393-9FB1-492B-A2C9-ACF50B83EC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD93393-9FB1-492B-A2C9-ACF50B83EC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495C84D7-FD3A-4EEF-A83F-87A13A74CB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495C84D7-FD3A-4EEF-A83F-87A13A74CB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495C84D7-FD3A-4EEF-A83F-87A13A74CB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495C84D7-FD3A-4EEF-A83F-87A13A74CB9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,10 +1,14 @@
+using Poker.PokerSystem.Interface;
+
 namespace Poker;
 
-public class Table
+public class Table:ITable
 {
-	int id;
-	string name;
-	float minmalBuyIn; 
-	float moneyOnTable;
+	public int id{ get; set; }
+	public int maxPlayer{ get; set; }
+	public int minPlayer{ get; set; }
+	 
+	public int minmalBuyIn{ get; set; } 
+	public int potOnTable{ get; set; }
 	
 }
