@@ -1,0 +1,15 @@
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\bin\Debug\net8.0\CardSuffler.exe
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\bin\Debug\net8.0\CardSuffler.deps.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\bin\Debug\net8.0\CardSuffler.runtimeconfig.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\bin\Debug\net8.0\CardSuffler.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\bin\Debug\net8.0\CardSuffler.pdb
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\obj\Debug\net8.0\CardSuffler.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\obj\Debug\net8.0\CardSuffler.AssemblyInfoInputs.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\obj\Debug\net8.0\CardSuffler.AssemblyInfo.cs
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\obj\Debug\net8.0\CardSuffler.csproj.CoreCompileInputs.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\obj\Debug\net8.0\CardSuffler.sourcelink.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\obj\Debug\net8.0\CardSuffler.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\obj\Debug\net8.0\refint\CardSuffler.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\obj\Debug\net8.0\CardSuffler.pdb
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\obj\Debug\net8.0\CardSuffler.genruntimeconfig.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\CardSuffler\obj\Debug\net8.0\ref\CardSuffler.dll

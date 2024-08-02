@@ -1,0 +1,30 @@
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\bin\Debug\net8.0\PlayingCardMakerJSon.exe
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\bin\Debug\net8.0\PlayingCardMakerJSon.deps.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\bin\Debug\net8.0\PlayingCardMakerJSon.runtimeconfig.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\bin\Debug\net8.0\PlayingCardMakerJSon.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\bin\Debug\net8.0\PlayingCardMakerJSon.pdb
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.AssemblyInfoInputs.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.AssemblyInfo.cs
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.csproj.CoreCompileInputs.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.sourcelink.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\obj\Debug\net8.0\refint\PlayingCardMakerJSon.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.pdb
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.genruntimeconfig.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardMakerJSon\obj\Debug\net8.0\ref\PlayingCardMakerJSon.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\bin\Debug\net8.0\PlayingCardMakerJSon.exe
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\bin\Debug\net8.0\PlayingCardMakerJSon.deps.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\bin\Debug\net8.0\PlayingCardMakerJSon.runtimeconfig.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\bin\Debug\net8.0\PlayingCardMakerJSon.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\bin\Debug\net8.0\PlayingCardMakerJSon.pdb
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.AssemblyInfoInputs.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.AssemblyInfo.cs
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.csproj.CoreCompileInputs.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.sourcelink.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\obj\Debug\net8.0\refint\PlayingCardMakerJSon.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.pdb
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\obj\Debug\net8.0\PlayingCardMakerJSon.genruntimeconfig.cache
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardMakerJSon\obj\Debug\net8.0\ref\PlayingCardMakerJSon.dll
