@@ -1,7 +1,9 @@
-namespace Poker;
+using PlayingCardMakerJSon;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-public class Deck
+namespace PlayingCardJsonTester;
+
+public class Deck : Card
 {
 	private List<Card>? listOfCards = new List<Card>();
 	public List<Card>? GetAllCards()

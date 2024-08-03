@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj": {}
+    "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\CardSuffler\\CardSuffler.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj": {
+    "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\CardSuffler\\CardSuffler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\CardSuffler\\CardSuffler.csproj",
         "projectName": "CardSuffler",
-        "projectPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj",
-        "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\obj\\",
+        "projectPath": "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\CardSuffler\\CardSuffler.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\CardSuffler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

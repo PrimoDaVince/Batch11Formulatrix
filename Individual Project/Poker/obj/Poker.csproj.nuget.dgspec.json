@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj": {}
+    "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\Poker\\Poker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj": {
+    "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\Poker\\Poker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\Poker\\Poker.csproj",
         "projectName": "Poker",
-        "projectPath": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj",
-        "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\obj\\",
+        "projectPath": "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\Poker\\Poker.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\Poker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

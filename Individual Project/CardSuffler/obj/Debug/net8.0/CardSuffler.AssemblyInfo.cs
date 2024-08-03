@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CardSuffler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ac5b18d5800c776aa331fecea4a692ed8c2d290")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1bff283ae6354951e1f9cb6e43af3323a0aa648")]
 [assembly: System.Reflection.AssemblyProductAttribute("CardSuffler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CardSuffler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

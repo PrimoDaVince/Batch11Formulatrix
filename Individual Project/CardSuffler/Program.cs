@@ -20,13 +20,6 @@ class Program
 			//deserillized data dari card json
 			string jsonFromFile = reader.ReadToEnd();
 			List<Card> deserializedCards = JsonSerializer.Deserialize<List<Card>>(jsonFromFile);
-			 const int arraySize = 6;
-
-		
-	
-	
-			
-		
 			Card foundCard = GetCardById(deserializedCards,random.Next(1,52));
 			
 		

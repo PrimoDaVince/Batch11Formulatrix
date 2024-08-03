@@ -2,11 +2,11 @@ using System.Data.Common;
 
 namespace PlayingCardMakerJSon;
 
-public class Card
+public class Card 
 {
 		
 	  
-    public int idCard { get; set; }
+	public int idCard { get; set; }
 	public Rank rank { get; set; }
 	public Suit suit { get; set; }
 	
