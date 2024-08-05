@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj": {}
+    "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj": {
+    "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj",
+        "projectUniqueName": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj",
         "projectName": "Poker",
-        "projectPath": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj",
+        "projectPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\Poker.csproj",
         "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\obj\\",
+        "outputPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\Poker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"

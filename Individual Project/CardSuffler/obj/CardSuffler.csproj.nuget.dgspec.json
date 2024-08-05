@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj": {}
+    "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj": {
+    "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj",
+        "projectUniqueName": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj",
         "projectName": "CardSuffler",
-        "projectPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj",
+        "projectPath": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\CardSuffler.csproj",
         "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\obj\\",
+        "outputPath": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\CardSuffler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -2,6 +2,6 @@ namespace Poker;
 
 public interface IPlayer
 {
-	int id { get; set; }
-	string name { get; set; }
+	int Id { get; }
+	string Name { get; set; }
 }

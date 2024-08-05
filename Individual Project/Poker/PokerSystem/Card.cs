@@ -1,21 +1,22 @@
+using Poker.PokerSystem.Interface;
 using RankEnum;
 using SuitEnum;
 
 namespace Poker;
 
-public class Card
+public class Card : ICard
 {
-	public int idCard { get; private set; }
-	public Rank rank { get; set; }
-	public Suit suit { get; set; }
+	public int IdCard { get; private set; }
+	public Rank Rank { get; private set; }
+	public Suit Suit { get; private set; }
 	
 	public Card()
-	{}
-	public Card(int Idcard,Rank rankd,Suit suitd)
+	{ }
+	public Card(int idCard, Rank rank, Suit suit)
 	{
-		idCard = Idcard;
-		rank= rankd;
-		suit=suitd;
-		
+		IdCard = idCard;
+		Rank = rank;
+		Suit = suit;
+
 	}
 }

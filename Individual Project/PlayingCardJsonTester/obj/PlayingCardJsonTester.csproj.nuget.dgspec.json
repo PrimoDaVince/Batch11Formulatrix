@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj": {}
+    "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj": {
+    "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj",
+        "projectUniqueName": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj",
         "projectName": "PlayingCardJsonTester",
-        "projectPath": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj",
+        "projectPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj",
         "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\obj\\",
+        "outputPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"

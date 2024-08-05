@@ -4,5 +4,6 @@ public enum PlayerStatus
 {
 	SmallBlind,
 	BigBlind,
-	DealerButton
+	DealerButton,
+	None,
 }

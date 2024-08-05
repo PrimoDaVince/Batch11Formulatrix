@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardMakerJSon\\PlayingCardMakerJSon.csproj": {}
+    "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardMakerJSon\\PlayingCardMakerJSon.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardMakerJSon\\PlayingCardMakerJSon.csproj": {
+    "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardMakerJSon\\PlayingCardMakerJSon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardMakerJSon\\PlayingCardMakerJSon.csproj",
+        "projectUniqueName": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardMakerJSon\\PlayingCardMakerJSon.csproj",
         "projectName": "PlayingCardMakerJSon",
-        "projectPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardMakerJSon\\PlayingCardMakerJSon.csproj",
+        "projectPath": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardMakerJSon\\PlayingCardMakerJSon.csproj",
         "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardMakerJSon\\obj\\",
+        "outputPath": "C:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardMakerJSon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"
