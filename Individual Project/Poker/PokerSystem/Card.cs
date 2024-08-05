@@ -4,19 +4,19 @@ using SuitEnum;
 
 namespace Poker;
 
-public class Card:ICard
+public class Card : ICard
 {
-	public int idCard { get; private set; }
-	public Rank rank { get; private set; }
-	public Suit suit { get; private set; }
+	public int IdCard { get; private set; }
+	public Rank Rank { get; private set; }
+	public Suit Suit { get; private set; }
 	
 	public Card()
-	{}
-	public Card(int Idcard,Rank rankD,Suit suitD)
+	{ }
+	public Card(int idCard, Rank rank, Suit suit)
 	{
-		idCard = Idcard;
-		rank= rankD;
-		suit=suitD;
-		
+		IdCard = idCard;
+		Rank = rank;
+		Suit = suit;
+
 	}
 }

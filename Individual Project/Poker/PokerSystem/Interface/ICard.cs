@@ -4,7 +4,7 @@ using RankEnum;
 
 public interface ICard
 {
-	 public int idCard { get;  }
-	 public Rank rank { get;  }
-	 public Suit suit { get;  }
+	 public int IdCard { get;  }
+	 public Rank Rank { get;  }
+	 public Suit Suit { get;  }
 }

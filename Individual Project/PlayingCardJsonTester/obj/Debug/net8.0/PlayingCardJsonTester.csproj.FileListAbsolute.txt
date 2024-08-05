@@ -13,6 +13,26 @@ c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardJsonTester\obj\Debug\net8.0\r
 c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.pdb
 c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.genruntimeconfig.cache
 c:\Users\Batch 11\Desktop\BootcampAkmal\PlayingCardJsonTester\obj\Debug\net8.0\ref\PlayingCardJsonTester.dll
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.exe
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.deps.json
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.runtimeconfig.json
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.dll
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.pdb
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.AssemblyInfoInputs.cache
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.AssemblyInfo.cs
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.csproj.CoreCompileInputs.cache
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.sourcelink.json
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.dll
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\refint\PlayingCardJsonTester.dll
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.pdb
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.genruntimeconfig.cache
+c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\ref\PlayingCardJsonTester.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.exe
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.deps.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.runtimeconfig.json
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.dll
+c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.pdb
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.GeneratedMSBuildEditorConfig.editorconfig
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.AssemblyInfoInputs.cache
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.AssemblyInfo.cs
@@ -21,11 +41,6 @@ c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.dll
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\refint\PlayingCardJsonTester.dll
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.pdb
-c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.exe
-c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.deps.json
-c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.runtimeconfig.json
-c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.dll
-c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.pdb
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\PlayingCardJsonTester.genruntimeconfig.cache
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\obj\Debug\net8.0\ref\PlayingCardJsonTester.dll
 c:\Users\ACER\Desktop\Bootcamp11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Batch11Formulatrix\Individual Project\PlayingCardJsonTester\bin\Debug\net8.0\PlayingCardJsonTester.exe

@@ -2,17 +2,17 @@ namespace Poker;
 
 public class Player:IPlayer
 {
-	public int id{ get; set; }
-	public string? name{ get; set; }
+	public int Id{ get; private set; }
+	private static int _idCounter=1;	
+	public string Name{ get; set; }
 	
-	public Player(int Id)
+	public Player(int id)
 	{
-		int id = Id;
+		int Id = id;
 	}
-	public Player (int Id, string Name)
-	
-	{
-		id = Id;
-		name = Name;
+	public Player ( string name)
+	{	
+		Id = _idCounter++;
+		Name = name;
 	}
 }
