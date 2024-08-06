@@ -4,7 +4,7 @@ namespace Poker;
 
 public class GameController
 {
-	static private 
+	
 	private List<Player> players;
 	private Table table;
 	private Deck deck;

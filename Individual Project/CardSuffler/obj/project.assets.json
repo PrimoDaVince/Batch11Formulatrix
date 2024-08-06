@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\CardSuffler\\CardSuffler.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\CardSuffler\\CardSuffler.csproj",
       "projectName": "CardSuffler",
-      "projectPath": "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\CardSuffler\\CardSuffler.csproj",
+      "projectPath": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\CardSuffler\\CardSuffler.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\Desktop\\Bootcamp11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Batch11Formulatrix\\Individual Project\\CardSuffler\\obj\\",
+      "outputPath": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\CardSuffler\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"

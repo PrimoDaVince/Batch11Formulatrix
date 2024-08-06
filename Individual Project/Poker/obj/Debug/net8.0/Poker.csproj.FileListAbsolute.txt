@@ -13,3 +13,18 @@ c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\Poker\obj\Debug\net8.
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\Poker\obj\Debug\net8.0\Poker.pdb
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\Poker\obj\Debug\net8.0\Poker.genruntimeconfig.cache
 c:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\Poker\obj\Debug\net8.0\ref\Poker.dll
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\obj\Debug\net8.0\Poker.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\obj\Debug\net8.0\Poker.AssemblyInfoInputs.cache
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\obj\Debug\net8.0\Poker.AssemblyInfo.cs
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\obj\Debug\net8.0\Poker.csproj.CoreCompileInputs.cache
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\obj\Debug\net8.0\Poker.sourcelink.json
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\obj\Debug\net8.0\Poker.dll
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\obj\Debug\net8.0\refint\Poker.dll
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\obj\Debug\net8.0\Poker.pdb
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\bin\Debug\net8.0\Poker.exe
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\bin\Debug\net8.0\Poker.deps.json
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\bin\Debug\net8.0\Poker.runtimeconfig.json
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\bin\Debug\net8.0\Poker.dll
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\bin\Debug\net8.0\Poker.pdb
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\obj\Debug\net8.0\Poker.genruntimeconfig.cache
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\Poker\obj\Debug\net8.0\ref\Poker.dll

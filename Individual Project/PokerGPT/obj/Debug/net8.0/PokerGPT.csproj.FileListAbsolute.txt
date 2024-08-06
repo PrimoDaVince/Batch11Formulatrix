@@ -1,0 +1,15 @@
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\bin\Debug\net8.0\PokerGPT.exe
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\bin\Debug\net8.0\PokerGPT.deps.json
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\bin\Debug\net8.0\PokerGPT.runtimeconfig.json
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\bin\Debug\net8.0\PokerGPT.dll
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\bin\Debug\net8.0\PokerGPT.pdb
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\obj\Debug\net8.0\PokerGPT.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\obj\Debug\net8.0\PokerGPT.AssemblyInfoInputs.cache
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\obj\Debug\net8.0\PokerGPT.AssemblyInfo.cs
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\obj\Debug\net8.0\PokerGPT.csproj.CoreCompileInputs.cache
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\obj\Debug\net8.0\PokerGPT.sourcelink.json
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\obj\Debug\net8.0\PokerGPT.dll
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\obj\Debug\net8.0\refint\PokerGPT.dll
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\obj\Debug\net8.0\PokerGPT.pdb
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\obj\Debug\net8.0\PokerGPT.genruntimeconfig.cache
+c:\Users\ACER\Desktop\BTCFM\Batch11Formulatrix\Individual Project\PokerGPT\obj\Debug\net8.0\ref\PokerGPT.dll

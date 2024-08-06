@@ -13,11 +13,9 @@ public class Table:ITable
 	Deck deck = new Deck();
 	public Table()
 	{	
-		
 		communityCards = deck.GetAllCards();
 		pot = 0;
 	}
-
 	public void AddCardToCommunity(Card card)
 	{
 		communityCards.Add(card);

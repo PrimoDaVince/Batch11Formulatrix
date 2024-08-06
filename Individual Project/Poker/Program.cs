@@ -7,7 +7,7 @@ class Program
 		{
 			new Player("Hello"),
 			new Player("World")
-		};
+		}; 
 
 		var gameController = new GameController(players); 
 		Console.ReadLine();

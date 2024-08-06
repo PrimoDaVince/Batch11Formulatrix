@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableTester", "TableTester\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardSuffler", "CardSuffler\CardSuffler.csproj", "{280D7F09-5A89-48CE-A4CF-CD0478FDC5A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerGPT", "PokerGPT\PokerGPT.csproj", "{D27FC68C-A1DF-4192-9A17-490F64285625}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{280D7F09-5A89-48CE-A4CF-CD0478FDC5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280D7F09-5A89-48CE-A4CF-CD0478FDC5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{280D7F09-5A89-48CE-A4CF-CD0478FDC5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27FC68C-A1DF-4192-9A17-490F64285625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27FC68C-A1DF-4192-9A17-490F64285625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27FC68C-A1DF-4192-9A17-490F64285625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27FC68C-A1DF-4192-9A17-490F64285625}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
