@@ -14,7 +14,7 @@ class Program
 		Deck deck = new Deck();
 	
 
-		string filePath = "./Cards.json";
+		string filePath = @"C:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PlayingCardJsonTester\Cards.json";
 		
 		deck.LoadFromJson(filePath);
 		List<Card>? cards = deck.GetAllCards();

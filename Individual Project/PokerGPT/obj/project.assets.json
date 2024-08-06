@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {}
+    "C:\\Users\\Batch 11\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\PokerGPT.csproj",
-      "projectName": "PokerGPT",
-      "projectPath": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\PokerGPT.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\obj\\",
+      "projectUniqueName": "C:\\Users\\Batch 11\\Desktop\\GPT Poker\\PokerGPT\\Poker-AlmostFinish.csproj",
+      "projectName": "Poker-AlmostFinish",
+      "projectPath": "C:\\Users\\Batch 11\\Desktop\\GPT Poker\\PokerGPT\\Poker-AlmostFinish.csproj",
+      "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Batch 11\\Desktop\\GPT Poker\\PokerGPT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

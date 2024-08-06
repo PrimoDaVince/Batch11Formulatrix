@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {}
+    "C:\\Users\\Batch 11\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj",
+      "projectUniqueName": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj",
       "projectName": "PlayingCardJsonTester",
-      "projectPath": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PlayingCardJsonTester\\obj\\",
+      "projectPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\PlayingCardJsonTester.csproj",
+      "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Batch 11\\Desktop\\BootcampAkmal\\Individual Project\\PlayingCardJsonTester\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

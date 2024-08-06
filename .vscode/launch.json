@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        
+        {
+            "name": "C#: Object",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\Materi\\Object\\Object.csproj",
+            "launchConfigurationId": "TargetFramework=;Object"
+        }
+    ]
+}

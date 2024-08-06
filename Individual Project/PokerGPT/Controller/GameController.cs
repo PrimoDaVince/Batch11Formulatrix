@@ -11,7 +11,7 @@ namespace Poker;
 public class GameController
 {
 	private readonly List<PlayerData> _players;
-	private readonly Table _table;
+	private readonly ITable _table;
 	private readonly Deck _deck;
 	private readonly HandRankComparator _comparator;
 	private readonly Position _dealerPosition;
@@ -24,7 +24,7 @@ public class GameController
 	private bool _roundOver;
 	private readonly string _cardJsonFilePath;
 
-	public GameController(List<PlayerData> players, Table table, Deck deck, string cardJsonFilePath)
+	public GameController(List<PlayerData> players, ITable table, Deck deck, string cardJsonFilePath)
 	{
 		_players = players;
 		_table = table;
@@ -240,6 +240,7 @@ public class GameController
 		{
 			_display.ShowError($"Error dealing community cards: {ex.Message}");
 		}
+		
 	}
 
 	public void DetermineWinner()

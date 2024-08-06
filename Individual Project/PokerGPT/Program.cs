@@ -16,15 +16,15 @@ namespace Poker
                 string playerName = display.GetPlayerName(i);
                 playerDataList.Add(new PlayerData(new Player(playerName), 1000, 500));
             }
-
-            // Initialize table with a minimum buy-in
-            Table table = new Table(1, 100);
-
             // Path to the JSON file containing card data
-            string cardJsonFilePath = @"C:\Users\ACER\Desktop\Bootcamp11Formulatrix\clone - Copy\Batch11Formulatrix\Individual Project\Poker\PokerSystem\JSON\Cards.json";
+            string cardJsonFilePath = @"C:\Users\Batch 11\Desktop\BootcampAkmal\Individual Project\PokerGPT\Json\Cards.json";
 
             // Initialize deck
             Deck deck = new Deck(cardJsonFilePath);
+            // Initialize table with a minimum buy-in
+            Table table = new Table(1, 100);
+
+           
 
             // Initialize GameController
             GameController gameController = new GameController(playerDataList, table, deck, cardJsonFilePath);

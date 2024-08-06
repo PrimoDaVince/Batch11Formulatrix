@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 public class Deck
 {
 	Random random= new Random();
-	private List<Card>? listOfCards = new List<Card>();
+	public List<Card>? listOfCards = new List<Card>();
 	private List<Card>? DeckCard = new();
 	public Deck()
 	{   string filepath =@"C:\Users\ACER\Desktop\Bootcamp11Formulatrix\clone - Copy\Batch11Formulatrix\Individual Project\Poker\PokerSystem\JSON\Cards.json";	
