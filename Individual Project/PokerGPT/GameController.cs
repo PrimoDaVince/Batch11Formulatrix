@@ -1,5 +1,6 @@
 
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Poker;
@@ -11,7 +12,7 @@ namespace Poker;
 public class GameController
 {
 	private readonly List<PlayerData> _players;
-	private readonly Table _table;
+	private readonly ITable _table;
 	private readonly Deck _deck;
 	private readonly HandRankComparator _comparator;
 	private readonly Position _dealerPosition;
@@ -59,6 +60,7 @@ public class GameController
 				}
 
 				DealCommunityCards();
+				
 				DetermineWinner();
 				RotatePositions();
 
@@ -242,39 +244,28 @@ public class GameController
 		}
 	}
 
-	public void DetermineWinner()
-	{
-		PlayerData winner = null;
-		HandRanking bestHandRank = HandRanking.HighCard;
-		var winningHand = new List<ICard>();
+	 private void DetermineWinner()
+		{	
+			var communityCards = _table.CommunityCards;
+        foreach (var player in _players)
+        {
+            var playerBestHand = player.Hand.BestHand(communityCards);
+            if ((PlayerData)null == null || _comparator.CompareHands(playerBestHand, null) > 0)
+            {
+                PlayerData bestPlayer = player;
+                IEnumerable<ICard> bestHand = playerBestHand;
+            }
+        }
 
-		foreach (var playerData in _players)
-		{
-			if (playerData.Status == PlayerStatus.Folded) continue;
-
-			var bestHand = playerData.Hand.BestHand(_table.CommunityCards);
-			var currentHandRank = _comparator.DetermineBestHand(bestHand, _table.CommunityCards);
-
-			if (currentHandRank > bestHandRank)
-			{
-				bestHandRank = currentHandRank;
-				winner = playerData;
-				winningHand = bestHand.ToList();
-			}
+        Console.WriteLine($"The winner is {((PlayerData)null).Player.Name} with {string.Join(", ", ((IEnumerable<ICard>)null).Select(c => $"{c.Rank} of {c.Suit}"))}");
 		}
 
-		if (winner != null)
+		private HandRanking EvaluateHandRank(IEnumerable<ICard> hand)
 		{
-			_display.ShowRoundResults(winner, bestHandRank, _table.Pot);
-			_display.ShowPlayerHand(winner);
-			winner.Chips += _table.Pot;
+			return _comparator.EvaluateHandRank(hand);
 		}
-		else
-		{
-			_display.ShowMessage("No winner determined.");
-		}
-	}
 
+	
 	private void RotatePositions()
 	{
 		_dealerPosition.Rotate(_players.Count);

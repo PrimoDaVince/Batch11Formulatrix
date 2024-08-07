@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\PokerGPT.csproj": {}
+    "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\PokerGPT.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\PokerGPT.csproj": {
+    "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\PokerGPT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\PokerGPT.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\PokerGPT.csproj",
         "projectName": "PokerGPT",
-        "projectPath": "c:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\PokerGPT.csproj",
+        "projectPath": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\PokerGPT.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\obj\\",
+        "outputPath": "C:\\Users\\ACER\\Desktop\\BTCFM\\Batch11Formulatrix\\Individual Project\\PokerGPT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -5,6 +5,7 @@ using Poker.Enums;
 
 namespace Poker
 {
+    
     public class OnHand
     {
         private List<ICard> _cards;
@@ -36,72 +37,93 @@ namespace Poker
             return _cards.AsReadOnly();
         }
 
-        public IEnumerable<ICard> BestHand(IEnumerable<ICard> communityCards)
+       public IEnumerable<ICard> BestHand(IEnumerable<ICard> communityCards)
+{
+    var allCards = _cards.Concat(communityCards).ToList();
+
+    if (allCards.Count < 5)
+    {
+        throw new InvalidOperationException("Not enough cards to determine the best hand.");
+    }
+
+    var bestHand = new List<ICard>();
+    var bestRank = HandRanking.HighCard;
+
+    var allCombinations = GetCombinations(allCards, 5).ToList(); // Convert to list to avoid multiple enumerations
+
+    foreach (var combination in allCombinations)
+    {
+        var (handRank, handCards) = EvaluateHand(combination);
+
+        // Debug output
+        Console.WriteLine($"Evaluating hand: {string.Join(", ", combination.Select(c => $"{c.Rank} of {c.Suit}"))}");
+        Console.WriteLine($"Hand rank: {handRank}");
+
+        if (handRank > bestRank)
         {
-            var allCards = _cards.Concat(communityCards).ToList();
-            var bestHand = new List<ICard>();
-            var bestRank = HandRanking.HighCard;
-
-            // Evaluate all combinations of 5 cards from the total available cards
-            var allCombinations = GetCombinations(allCards, 5);
-
-            foreach (var combination in allCombinations)
-            {
-                var (handRank, handCards) = EvaluateHand(combination);
-                if (handRank > bestRank)
-                {
-                    bestRank = handRank;
-                    bestHand = handCards.ToList();
-                }
-            }
-
-            return bestHand;
+            bestRank = handRank;
+            bestHand = handCards.ToList();
         }
+    }
 
+    return bestHand;
+}
         private IEnumerable<IEnumerable<T>> GetCombinations<T>(IEnumerable<T> elements, int combinationLength)
         {
             var list = elements.ToList();
             return GetCombinations(list, combinationLength, 0);
         }
 
-        private IEnumerable<IEnumerable<T>> GetCombinations<T>(List<T> list, int combinationLength, int start)
-        {
-            if (combinationLength == 0)
-                return new[] { Enumerable.Empty<T>() };
+       private IEnumerable<IEnumerable<T>> GetCombinations<T>(List<T> list, int combinationLength, int start)
+{
+    if (combinationLength == 0)
+    {
+        return new[] { Enumerable.Empty<T>() };
+    }
 
-            return
-                from i in Enumerable.Range(start, list.Count)
-                from combination in GetCombinations(list, combinationLength - 1, i + 1)
-                select new[] { list[i] }.Concat(combination);
-        }
+    if (combinationLength > list.Count - start)
+    {
+        return Enumerable.Empty<IEnumerable<T>>();
+    }
 
-        private (HandRanking, IEnumerable<ICard>) EvaluateHand(IEnumerable<ICard> cards)
-        {
-            var allCards = cards.ToList();
+    return
+        from i in Enumerable.Range(start, list.Count - start)
+        from combination in GetCombinations(list, combinationLength - 1, i + 1)
+        select new[] { list[i] }.Concat(combination);
+}
 
-            // Determine the hand rank
-            if (IsRoyalFlush(allCards, out var royalFlushCards))
-                return (HandRanking.RoyalFlush, royalFlushCards);
-            if (IsStraightFlush(allCards, out var straightFlushCards))
-                return (HandRanking.StraightFlush, straightFlushCards);
-            if (IsFourOfAKind(allCards, out var fourOfAKindCards))
-                return (HandRanking.FourOfAKind, fourOfAKindCards);
-            if (IsFullHouse(allCards, out var fullHouseCards))
-                return (HandRanking.FullHouse, fullHouseCards);
-            if (IsFlush(allCards, out var flushCards))
-                return (HandRanking.Flush, flushCards);
-            if (IsStraight(allCards, out var straightCards))
-                return (HandRanking.Straight, straightCards);
-            if (IsThreeOfAKind(allCards, out var threeOfAKindCards))
-                return (HandRanking.ThreeOfAKind, threeOfAKindCards);
-            if (IsTwoPair(allCards, out var twoPairCards))
-                return (HandRanking.TwoPair, twoPairCards);
-            if (IsOnePair(allCards, out var onePairCards))
-                return (HandRanking.OnePair, onePairCards);
+        public (HandRanking, IEnumerable<ICard>) EvaluateHand(IEnumerable<ICard> cards)
+{
+    var allCards = cards.ToList();
 
-            // If no hand matched, return HighCard
-            return (HandRanking.HighCard, allCards.OrderByDescending(c => c.Rank).Take(5));
-        }
+    if (allCards.Count < 5)
+    {
+        throw new InvalidOperationException("Not enough cards to evaluate a hand.");
+    }
+
+    // Determine the hand rank
+    if (IsRoyalFlush(allCards, out var royalFlushCards))
+        return (HandRanking.RoyalFlush, royalFlushCards);
+    if (IsStraightFlush(allCards, out var straightFlushCards))
+        return (HandRanking.StraightFlush, straightFlushCards);
+    if (IsFourOfAKind(allCards, out var fourOfAKindCards))
+        return (HandRanking.FourOfAKind, fourOfAKindCards);
+    if (IsFullHouse(allCards, out var fullHouseCards))
+        return (HandRanking.FullHouse, fullHouseCards);
+    if (IsFlush(allCards, out var flushCards))
+        return (HandRanking.Flush, flushCards);
+    if (IsStraight(allCards, out var straightCards))
+        return (HandRanking.Straight, straightCards);
+    if (IsThreeOfAKind(allCards, out var threeOfAKindCards))
+        return (HandRanking.ThreeOfAKind, threeOfAKindCards);
+    if (IsTwoPair(allCards, out var twoPairCards))
+        return (HandRanking.TwoPair, twoPairCards);
+    if (IsOnePair(allCards, out var onePairCards))
+        return (HandRanking.OnePair, onePairCards);
+
+    // If no hand matched, return HighCard
+    return (HandRanking.HighCard, allCards.OrderByDescending(c => c.Rank).Take(5));
+}
 
         private bool IsRoyalFlush(List<ICard> cards, out List<ICard> royalFlushCards)
         {
@@ -198,20 +220,21 @@ namespace Poker
             {
                 if (orderedCards[i] - orderedCards[i + 4] == 4)
                 {
-                    straightCards = orderedCards.Skip(i).Take(5).Select(r => (ICard)new Card(0, r, cards.First(c => c.Rank == r).Suit)).ToList();
+                    straightCards = orderedCards.Skip(i).Take(5).Select(r => cards.First(c => c.Rank == r)).ToList();
                     return true;
                 }
             }
 
+            // Special case for Ace-low straight
             if (orderedCards.Contains(Rank.Ace) && orderedCards.TakeLast(4).SequenceEqual(new List<Rank> { Rank.Five, Rank.Four, Rank.Three, Rank.Two }))
             {
                 straightCards = new List<ICard>
                 {
-                    new Card(0, Rank.Five, cards.First(c => c.Rank == Rank.Five).Suit),
-                    new Card(0, Rank.Four, cards.First(c => c.Rank == Rank.Four).Suit),
-                    new Card(0, Rank.Three, cards.First(c => c.Rank == Rank.Three).Suit),
-                    new Card(0, Rank.Two, cards.First(c => c.Rank == Rank.Two).Suit),
-                    new Card(0, Rank.Ace, cards.First(c => c.Rank == Rank.Ace).Suit)
+                    cards.First(c => c.Rank == Rank.Five),
+                    cards.First(c => c.Rank == Rank.Four),
+                    cards.First(c => c.Rank == Rank.Three),
+                    cards.First(c => c.Rank == Rank.Two),
+                    cards.First(c => c.Rank == Rank.Ace)
                 };
                 return true;
             }
