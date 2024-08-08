@@ -14,13 +14,13 @@ namespace SuperSimplePoker;
 
         public static void PrintPlayerStatus(PlayerGameInfo player, int minimumBet, List<Card> communityCards)
         {
-            Console.WriteLine($"The minimum bet is: {minimumBet}");
-            Console.WriteLine($"You have bet {player.Bet} this round");
+            Console.WriteLine($" minimum bet is: {minimumBet}");
+            Console.WriteLine($"You  bet {player.Bet} this round");
             Console.WriteLine($"{player.Player.Name}'s turn");
             Console.WriteLine($"Money left: {player.Money}");
             PrintPlayerCards(player.Player.Name, player.UnsortedHand);
             player.HandEvaluator = new HandEvaluator(player.UnsortedHand); // Evaluate based on player's hand only
-            Console.WriteLine($"Your best combination as of now: {player.HandEvaluator.EvaluateHand()}");
+            Console.WriteLine($"Your best combination : {player.HandEvaluator.EvaluateHand()}");
         }
 
         public static void PrintPlayerCards(string playerName, List<Card> cards)
@@ -49,13 +49,13 @@ namespace SuperSimplePoker;
 
         public static void PrintUltimateWinner(string playerName, int money)
         {
-            Console.WriteLine($"{playerName} You Survied, ChihkenDinner !!");
+            Console.WriteLine($"{playerName} You Survived, Chicken Dinner !!");
             Console.WriteLine($"Total Money: {money}");
         }
 
         public static void PrintPlayerKickedOut(string playerName)
         {
-            Console.WriteLine($"{playerName} Kiked -Run out of money.");
+            Console.WriteLine($"{playerName} Kicked -Run out of money.");
         }
 
         public static void PrintCallAmount(int callAmount)
@@ -102,7 +102,7 @@ namespace SuperSimplePoker;
 
         public static int GetRaiseAmount()
         {
-            Console.Write("How much do you want to raise by? ");
+            Console.Write("How much do ? ");
             return Convert.ToInt32(Console.ReadLine());
         }
     }

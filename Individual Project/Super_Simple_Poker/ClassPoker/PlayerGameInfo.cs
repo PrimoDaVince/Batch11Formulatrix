@@ -8,6 +8,7 @@ public class PlayerGameInfo
 	public int Money { get; set; }
 	public int Bet { get; set; }
 	public bool PlayerIngame { get; set; }
+	// gk perlu
 	public HandEvaluator HandEvaluator { get; set; }
 
 	public PlayerGameInfo(Player player)

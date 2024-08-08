@@ -18,11 +18,13 @@ class Program
 		int moneyPerPlayer = Int32.Parse(Console.ReadLine());
 
 		DeckOfCards deck = new DeckOfCards();
-		deck.LoadFromJson(@"C:\Users\Batch 11\Desktop\Batch11Formulatrix\Super_Simple_Poker\Json\Cards.json");
+		deck.LoadFromJson(@"C:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\Json\Cards.json");
 
 		GameController gameController = new GameController(playerNames, moneyPerPlayer, deck);
 		gameController.StartGame();
 	}
+	
+	
 }
 
 
