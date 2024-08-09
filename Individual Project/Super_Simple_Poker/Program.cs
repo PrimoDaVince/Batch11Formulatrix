@@ -1,8 +1,9 @@
 ﻿using SuperSimplePoker;
+using NLog;
 class Program
 {
 	static void Main(string[] args)
-	{
+	{	ILogger logger = LogManager.GetCurrentClassLogger();
 		Console.WriteLine("How many players?: ");
 		int playerCount = Int16.Parse(Console.ReadLine());
 
@@ -20,7 +21,7 @@ class Program
 		DeckOfCards deck = new DeckOfCards();
 		deck.LoadFromJson(@"C:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\Json\Cards.json");
 
-		GameController gameController = new GameController(playerNames, moneyPerPlayer, deck);
+		GameController gameController = new GameController(playerNames, moneyPerPlayer, deck,logger);
 		gameController.StartGame();
 	}
 	

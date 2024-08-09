@@ -43,3 +43,6 @@ c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Pok
 c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\obj\Debug\net8.0\Super_Simple_Poker.pdb
 c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\obj\Debug\net8.0\Super_Simple_Poker.genruntimeconfig.cache
 c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\obj\Debug\net8.0\ref\Super_Simple_Poker.dll
+c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\obj\Debug\net8.0\Super_Simple_Poker.csproj.AssemblyReference.cache
+c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\bin\Debug\net8.0\NLog.dll
+c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\obj\Debug\net8.0\Super_Si.A1F0A292.Up2Date

@@ -1,20 +1,25 @@
 namespace SuperSimplePoker;
 using SuperSimplePoker;
+using NLog;
 
 
 public class GameController
 {
+	
 	public List<PlayerGameInfo> Players { get; private set; }
 	public Table Table { get; private set; }
 	public int MinimumBet { get; private set; }
 	private DeckOfCards deck;
-
-	public GameController(List<string> playerNames, int moneyPerPlayer, DeckOfCards deck)
-	{
+	private ILogger _log;
+	
+	
+	public GameController(List<string> playerNames, int moneyPerPlayer, DeckOfCards deck,ILogger log)
+	{	_log = log;
 		this.deck = deck;
 		Players = new List<PlayerGameInfo>();
 		Table = new Table();
 		InitializePlayers(playerNames, moneyPerPlayer);
+		
 	}
 
 	private void InitializePlayers(List<string> playerNames, int moneyPerPlayer)
@@ -33,7 +38,9 @@ public class GameController
 
 			playerGameInfo.HandEvaluator = new HandEvaluator(playerGameInfo.UnsortedHand);
 			Players.Add(playerGameInfo);
+			_log.Info($"InitializePlayers Executed for Player : {i+1}");
 		}
+		
 	}
 
 	public void StartGame()

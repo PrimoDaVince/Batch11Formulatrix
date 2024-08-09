@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj": {}
+    "C:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj": {
+    "C:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
+        "projectUniqueName": "C:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
         "projectName": "Super_Simple_Poker",
-        "projectPath": "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
+        "projectPath": "C:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
         "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\obj\\",
+        "outputPath": "C:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
