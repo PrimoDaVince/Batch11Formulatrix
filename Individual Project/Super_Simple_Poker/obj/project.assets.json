@@ -407,19 +407,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Batch 11\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
       "projectName": "Super_Simple_Poker",
-      "projectPath": "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
-      "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\obj\\",
+      "projectPath": "C:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

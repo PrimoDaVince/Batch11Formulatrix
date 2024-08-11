@@ -8,39 +8,44 @@ using System.Text.Json.Serialization;
 namespace SuperSimplePoker;
 
 	public class DeckOfCards
+{
+    private List<Card> deck = new List<Card>(); // list of all playable cards left in the deck
+
+    public void LoadFromJson(string filePath)
     {
-        private List<Card> deck = new List<Card>(); // list of all playable cards left in deck
+        using FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read);
+        deck = JsonSerializer.Deserialize<List<Card>>(fs);
+        ShuffleCards();
+    }
 
-        public void LoadFromJson(string filePath)
+    public Card DealCard()
+    {
+        if (deck.Count == 0)
+            throw new InvalidOperationException("No more cards in the deck");
+
+        Card card = deck[deck.Count - 1];
+        deck.RemoveAt(deck.Count - 1);
+        return card;
+    }
+
+    // Retrieve all cards in the deck
+    public List<Card> GetAllCards()
+    {
+        return new List<Card>(deck);
+    }
+
+    // shuffle the deck
+    public void ShuffleCards()
+    {
+        Random rand = new Random();
+        int n = deck.Count;
+        for (int i = deck.Count - 1; i > 0; i--)
         {
-            using FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read);
-            deck = JsonSerializer.Deserialize<List<Card>>(fs);
-            ShuffleCards();
+            int j = rand.Next(i + 1);
+            Card temp = deck[i];
+            deck[i] = deck[j];
+            deck[j] = temp;
         }
-
-        public Card DealCard()
-        {
-            if (deck.Count == 0)
-                throw new InvalidOperationException("No more cards in the deck");
-
-            Card card = deck[deck.Count - 1];
-            deck.RemoveAt(deck.Count - 1);
-            return card;
-        }
-
-        // shuffle the deck
-        public void ShuffleCards()
-        {
-            Random rand = new Random();
-            int n = deck.Count;
-            for (int i = deck.Count - 1; i > 0; i--)
-            {
-                int j = rand.Next(i + 1);
-                Card temp = deck[i];
-                deck[i] = deck[j];
-                deck[j] = temp;
-            }
-        }
-
-	}
+    }
+}
 

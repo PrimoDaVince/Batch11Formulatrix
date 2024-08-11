@@ -1,232 +1,80 @@
-namespace SuperSimplePoker;
 using SuperSimplePoker;
 using NLog;
-
-
 public class GameController
 {
-	
-	public List<PlayerGameInfo> Players { get; private set; }
-	public Table Table { get; private set; }
-	public int MinimumBet { get; private set; }
-	private DeckOfCards deck;
-	private ILogger _log;
-	
-	
-	public GameController(List<string> playerNames, int moneyPerPlayer, DeckOfCards deck,ILogger log)
-	{	_log = log;
-		this.deck = deck;
-		Players = new List<PlayerGameInfo>();
-		Table = new Table();
-		InitializePlayers(playerNames, moneyPerPlayer);
-		
-	}
+    private readonly DeckOfCards _deck;
+    private readonly Table _table;
+    private readonly List<PlayerGameInfo> _players;
+    private readonly ILogger _log;
 
-	private void InitializePlayers(List<string> playerNames, int moneyPerPlayer)
-	{	// need to separate form game controller
-		for (int i = 0; i < playerNames.Count; i++)
-		{
-			 
-			Player player = new Player(i + 1, playerNames[i]);
-			PlayerGameInfo playerGameInfo = new PlayerGameInfo(player)
-			{
-				Money = moneyPerPlayer,
-				PlayerIngame = true
-			};
-			playerGameInfo.UnsortedHand.Add(deck.DealCard());
-			playerGameInfo.UnsortedHand.Add(deck.DealCard());
+    public GameController(DeckOfCards deck, Table table, ILogger log)
+    {
+        _deck = deck;
+        _table = table;
+        _log = log;
+        _players = new List<PlayerGameInfo>();
+    }
 
-			playerGameInfo.HandEvaluator = new HandEvaluator(playerGameInfo.UnsortedHand);
-			Players.Add(playerGameInfo);
-			_log.Info($"InitializePlayers Executed for Player : {i+1}");
-		}
-		
-	}
+    public void InitializePlayer(Player player, int moneyPerPlayer)
+    {
+        PlayerGameInfo playerGameInfo = new PlayerGameInfo(player)
+        {
+            Money = moneyPerPlayer,
+            PlayerIngame = true
+        };
+        playerGameInfo.UnsortedHand.Add(_deck.DealCard());
+        playerGameInfo.UnsortedHand.Add(_deck.DealCard());
 
-	public void StartGame()
-	{ // place it in program.cs
-		while (Players.Count > 1)
-		{
-			MinimumBet = Players[0].Money / 50;
+        playerGameInfo.HandEvaluator = new HandEvaluator(playerGameInfo.UnsortedHand);
+        _players.Add(playerGameInfo);
+        _log.Info($"Initialized Player: {player.Name}");
+    }
 
-			Table.ClearCommunityCards();
-			foreach (var player in Players)
-			{
-				player.Bet = 0;
-			}
+    public List<Card> GetAllCards()
+    {
+        return _deck.GetAllCards();
+    }
 
-			Table.ClearPot();
-			
-			// -- GAMEPLAY --
+    public List<PlayerGameInfo> GetPlayers()
+    {
+        return _players;
+    }
 
-			// ---- FLOP ----
-			int roundPot = Round();
-			Table.AddToPot(roundPot);
+    public void DealCommunityCards(int count)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            _table.AddCommunityCard(_deck.DealCard());
+        }
+    }
 
-			Display.PrintPot(Table.Pot);
+    public List<Card> GetCommunityCards()
+    {
+        return _table.CommunityCards;
+    }
 
-			DealCommunityCards(3); // Flop
-			Display.PrintCommunityCards(Table.CommunityCards);
+    public void ClearCommunityCards()
+    {
+        _table.ClearCommunityCards();
+    }
 
-			roundPot = Round();
-			Table.AddToPot(roundPot);
-			Display.PrintPot(Table.Pot);
+    public int GetPot()
+    {
+        return _table.Pot;
+    }
 
-			DealCommunityCards(1); // Turn
-			Display.PrintCommunityCards(Table.CommunityCards);
+    public void AddToPot(int amount)
+    {
+        _table.AddToPot(amount);
+    }
 
-			roundPot = Round();
-			Table.AddToPot(roundPot);
-			Display.PrintPot(Table.Pot);
+    public void ClearPot()
+    {
+        _table.ClearPot();
+    }
 
-			DealCommunityCards(1); // River
-			Display.PrintCommunityCards(Table.CommunityCards);
-
-			roundPot = Round();
-			Table.AddToPot(roundPot);
-
-			AssignBestCombinations();
-			AnnounceWinner();
-
-			RemovePlayersWithoutMoney();
-		}
-	}
-
-	private int Round()
-	{
-		bool roundComplete = false;
-
-		while (!roundComplete)
-		{
-			for (int i = 0; i < Players.Count; i++)
-			{
-				if (AllPlayersReady())
-				{
-					roundComplete = true;
-					break;
-				}
-
-				if (Players[i].PlayerIngame)
-				{
-					Display.PrintPlayerStatus(Players[i], MinimumBet, Table.CommunityCards);
-					char choice = Display.GetPlayerChoice(Players[i], MinimumBet);
-
-					ExecutePlayerChoice(Players[i], choice);
-					Display.PrintNewLine();
-				}
-			}
-		}
-
-		int collectedAmount = Players.Sum(player => player.Bet);
-		Table.AddToPot(collectedAmount);
-		Players.ForEach(player => player.Bet = 0);
-
-		return collectedAmount;
-	}
-
-	private bool AllPlayersReady()
-	{
-		return Players.All(player => player.Money == 0 || player.Bet >= MinimumBet);
-	}
-
-	private void ExecutePlayerChoice(PlayerGameInfo player, char choice)
-	{
-		if (choice == 'C' && player.Bet < MinimumBet)
-		{
-			int callAmount = MinimumBet - player.Bet;
-			Display.PrintCallAmount(callAmount);
-			player.Bet += callAmount;
-			player.Money -= callAmount;
-		}
-		else if (choice == 'C' && player.Bet == MinimumBet)
-		{
-			Display.PrintCheck();
-		}
-		else if (choice == 'A')
-		{
-			int allInMoney = player.Money;
-			player.Money = 0;
-			player.Bet += allInMoney;
-			Display.PrintAllIn(allInMoney);
-			if (allInMoney > MinimumBet) MinimumBet += allInMoney;
-		}
-		else if (choice == 'R')
-		{
-			int raiseAmount = Display.GetRaiseAmount();
-			if (raiseAmount < player.Money)
-			{
-				player.Bet += raiseAmount;
-				player.Money -= raiseAmount;
-				player.Bet += MinimumBet;
-				player.Money -= MinimumBet;
-				MinimumBet += raiseAmount;
-				Display.PrintRaiseAmount(raiseAmount);
-			}
-		}
-		else if (choice == 'F')
-		{
-			Display.PrintFold();
-			player.PlayerIngame = false;
-		}
-	}
-
-	private void DealCommunityCards(int count)
-	{
-		for (int i = 0; i < count; i++)
-		{
-			Table.AddCommunityCard(deck.DealCard());
-		}
-	}
-
-	private void AssignBestCombinations()
-	{
-		foreach (var player in Players)
-		{
-			List<Card> combinedHand = CardSort(player.UnsortedHand, Table.CommunityCards);
-			Display.PrintPlayerCards(player.Player.Name, combinedHand);
-			player.HandEvaluator = new HandEvaluator(combinedHand);
-			Display.PrintBestCombination(player.Player.Name, player.HandEvaluator.EvaluateHand());
-		}
-	}
-
-	private void AnnounceWinner()
-	{
-		Players = Players.OrderBy(player => player.HandEvaluator.HandValues.Combination).ToList();
-		PlayerGameInfo winner = Players.Last();
-		Display.PrintRoundWinner(winner.Player.Name, winner.HandEvaluator.HandValues.Combination);
-		winner.Money += Table.Pot;
-		Display.PrintNewLine();
-	}
-
-	private void RemovePlayersWithoutMoney()
-	{
-		Players.RemoveAll(player => player.Money <= 0);
-		foreach (var player in Players.Where(player => player.Money <= 0))
-		{
-			Display.PrintPlayerKickedOut(player.Player.Name);
-		}
-
-		if (Players.Count == 1)
-		{
-			Display.PrintUltimateWinner(Players[0].Player.Name, Players[0].Money);
-		}
-	}
-
-	public List<Card> CardSort(List<Card> playerCards, List<Card> communityCards)
-	{
-		List<Card> totalCards = new List<Card>(playerCards);
-		totalCards.AddRange(communityCards);
-
-		return totalCards.OrderBy(card => card.Rank).ToList();
-	}
+    public void RemovePlayersWithoutMoney()
+    {
+        _players.RemoveAll(player => player.Money <= 0);
+    }
 }
-
-
-
-
-
-
-
-
-
-
