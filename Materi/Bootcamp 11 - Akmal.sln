@@ -213,6 +213,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseCreate", "DatabaseC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{9AFD2793-29D4-4CA2-A2CC-B07EE0928DA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMvc", "MyMvc\MyMvc.csproj", "{313E1BF6-68D7-4BB7-893C-3D76A92D1338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -587,6 +589,10 @@ Global
 		{9AFD2793-29D4-4CA2-A2CC-B07EE0928DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AFD2793-29D4-4CA2-A2CC-B07EE0928DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AFD2793-29D4-4CA2-A2CC-B07EE0928DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313E1BF6-68D7-4BB7-893C-3D76A92D1338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313E1BF6-68D7-4BB7-893C-3D76A92D1338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313E1BF6-68D7-4BB7-893C-3D76A92D1338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313E1BF6-68D7-4BB7-893C-3D76A92D1338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
