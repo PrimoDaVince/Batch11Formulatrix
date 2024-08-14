@@ -46,3 +46,9 @@ c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Pok
 c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\obj\Debug\net8.0\Super_Simple_Poker.csproj.AssemblyReference.cache
 c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\bin\Debug\net8.0\NLog.dll
 c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\obj\Debug\net8.0\Super_Si.A1F0A292.Up2Date
+c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+c:\Users\Batch 11\Desktop\Batch11Formulatrix\Individual Project\Super_Simple_Poker\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll

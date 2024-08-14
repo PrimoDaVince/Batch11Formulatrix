@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj": {}
+    "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj": {
+    "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
+        "projectUniqueName": "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
         "projectName": "Super_Simple_Poker",
-        "projectPath": "C:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
+        "projectPath": "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
         "packagesPath": "C:\\Users\\Batch 11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\obj\\",
+        "outputPath": "c:\\Users\\Batch 11\\Desktop\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 11\\AppData\\Roaming\\NuGet\\NuGet.Config"

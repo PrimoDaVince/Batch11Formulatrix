@@ -12,3 +12,170 @@
 2024-08-09 10:17:56.4996 Info InitializePlayers Executed for Player : 2 
 2024-08-09 10:20:58.5242 Info InitializePlayers Executed for Player : 1 
 2024-08-09 10:20:58.5371 Info InitializePlayers Executed for Player : 2 
+2024-08-14 09:00:37.0813 Info Initialized Player: yusuf 
+2024-08-14 09:00:37.1000 Info Initialized Player: eme 
+2024-08-14 09:11:36.7715 Info Initialized Player: lizzy 
+2024-08-14 09:11:36.7876 Info Initialized Player: lazlo 
+2024-08-14 09:11:36.7876 Info Initialized Player: lerry 
+2024-08-14 09:11:36.7876 Info Initialized Player: fanila 
+2024-08-14 09:11:36.7876 Info Initialized Player: fe 
+2024-08-14 09:11:36.7876 Info Added 150 to the pot. Current pot: 150 
+2024-08-14 09:11:36.7876 Info Dealt hole cards to lizzy 
+2024-08-14 09:11:36.7914 Info Dealt hole cards to lazlo 
+2024-08-14 09:11:36.7914 Info Dealt hole cards to lerry 
+2024-08-14 09:11:36.7914 Info Dealt hole cards to fanila 
+2024-08-14 09:11:36.7914 Info Dealt hole cards to fe 
+2024-08-14 09:11:59.9673 Info Added 500 to the pot. Current pot: 650 
+2024-08-14 09:11:59.9673 Info Dealt community card: King of Diamonds 
+2024-08-14 09:11:59.9673 Info Dealt community card: Nine of Hearts 
+2024-08-14 09:11:59.9673 Info Dealt community card: Jack of Spades 
+2024-08-14 09:11:59.9673 Info Added 0 to the pot. Current pot: 650 
+2024-08-14 09:11:59.9673 Info Dealt community card: Two of Spades 
+2024-08-14 09:11:59.9673 Info Added 0 to the pot. Current pot: 650 
+2024-08-14 09:11:59.9673 Info Dealt community card: Ace of Spades 
+2024-08-14 09:11:59.9673 Info Added 0 to the pot. Current pot: 650 
+2024-08-14 09:11:59.9906 Info Added 165 to the pot. Current pot: 815 
+2024-08-14 09:11:59.9906 Info Dealt hole cards to lizzy 
+2024-08-14 09:11:59.9906 Info Dealt hole cards to lazlo 
+2024-08-14 09:11:59.9906 Info Dealt hole cards to lerry 
+2024-08-14 09:11:59.9906 Info Dealt hole cards to fanila 
+2024-08-14 09:11:59.9906 Info Dealt hole cards to fe 
+2024-08-14 09:12:05.4609 Info Added 550 to the pot. Current pot: 1365 
+2024-08-14 09:12:05.4609 Info Dealt community card: Three of Hearts 
+2024-08-14 09:12:05.4609 Info Dealt community card: Jack of Hearts 
+2024-08-14 09:12:05.4609 Info Dealt community card: King of Clubs 
+2024-08-14 09:12:05.4609 Info Added 0 to the pot. Current pot: 1365 
+2024-08-14 09:12:05.4609 Info Dealt community card: Five of Hearts 
+2024-08-14 09:12:05.4609 Info Added 0 to the pot. Current pot: 1365 
+2024-08-14 09:12:05.4640 Info Dealt community card: Queen of Hearts 
+2024-08-14 09:12:05.4640 Info Added 0 to the pot. Current pot: 1365 
+2024-08-14 09:12:05.4640 Info Added 204 to the pot. Current pot: 1569 
+2024-08-14 09:12:05.4794 Info Dealt hole cards to lizzy 
+2024-08-14 09:12:05.4794 Info Dealt hole cards to lazlo 
+2024-08-14 09:12:05.4794 Info Dealt hole cards to lerry 
+2024-08-14 09:12:05.4794 Info Dealt hole cards to fanila 
+2024-08-14 09:12:05.4794 Info Dealt hole cards to fe 
+2024-08-14 09:12:11.7490 Info Added 680 to the pot. Current pot: 2249 
+2024-08-14 09:12:11.7490 Info Dealt community card: Seven of Diamonds 
+2024-08-14 09:12:11.7490 Info Dealt community card: Jack of Diamonds 
+2024-08-14 09:12:11.7490 Info Dealt community card: Four of Hearts 
+2024-08-14 09:12:11.7490 Info Added 0 to the pot. Current pot: 2249 
+2024-08-14 09:12:11.7490 Info Dealt community card: Six of Hearts 
+2024-08-14 09:12:11.7490 Info Added 0 to the pot. Current pot: 2249 
+2024-08-14 09:12:11.7490 Info Dealt community card: Five of Clubs 
+2024-08-14 09:12:11.7490 Info Added 0 to the pot. Current pot: 2249 
+2024-08-14 09:12:11.7726 Info Added 267 to the pot. Current pot: 2516 
+2024-08-14 09:12:11.7726 Info Dealt hole cards to lizzy 
+2024-08-14 09:12:11.7726 Info Dealt hole cards to lazlo 
+2024-08-14 09:12:11.7726 Info Dealt hole cards to lerry 
+2024-08-14 09:34:56.6945 Info Initialized Player: ellie 
+2024-08-14 09:34:56.7099 Info Initialized Player: maxima 
+2024-08-14 09:34:56.7099 Info Added 150 to the pot. Current pot: 150 
+2024-08-14 09:34:56.7099 Info Dealt hole cards to ellie 
+2024-08-14 09:34:56.7099 Info Dealt hole cards to maxima 
+2024-08-14 09:35:11.3767 Info Added 200 to the pot. Current pot: 350 
+2024-08-14 09:35:11.3767 Info Dealt community card: King of Diamonds 
+2024-08-14 09:35:11.3767 Info Dealt community card: Five of Diamonds 
+2024-08-14 09:35:11.3767 Info Dealt community card: Five of Clubs 
+2024-08-14 09:35:11.3767 Info Added 0 to the pot. Current pot: 350 
+2024-08-14 09:35:11.3767 Info Dealt community card: Nine of Clubs 
+2024-08-14 09:35:11.3767 Info Added 0 to the pot. Current pot: 350 
+2024-08-14 09:35:11.3767 Info Dealt community card: Three of Spades 
+2024-08-14 09:35:11.3767 Info Added 0 to the pot. Current pot: 350 
+2024-08-14 09:35:11.3950 Info Added 156 to the pot. Current pot: 506 
+2024-08-14 09:35:11.3950 Info Dealt hole cards to ellie 
+2024-08-14 09:35:11.3950 Info Dealt hole cards to maxima 
+2024-08-14 09:36:31.4431 Info Initialized Player: ellie 
+2024-08-14 09:36:31.4566 Info Initialized Player: maxima 
+2024-08-14 09:36:31.4566 Info Added 150 to the pot. Current pot: 150 
+2024-08-14 09:36:31.4566 Info Dealt hole cards to ellie 
+2024-08-14 09:36:31.4566 Info Dealt hole cards to maxima 
+2024-08-14 09:36:51.0457 Info Initialized Player: ellie 
+2024-08-14 09:36:51.0591 Info Initialized Player: maxima 
+2024-08-14 09:36:51.0591 Info Added 150 to the pot. Current pot: 150 
+2024-08-14 09:36:51.0591 Info Dealt hole cards to ellie 
+2024-08-14 09:36:51.0591 Info Dealt hole cards to maxima 
+2024-08-14 09:36:53.6696 Info Added 200 to the pot. Current pot: 350 
+2024-08-14 09:36:53.6696 Info Dealt community card: Four of Diamonds 
+2024-08-14 09:36:53.6696 Info Dealt community card: Two of Spades 
+2024-08-14 09:36:53.6696 Info Dealt community card: Five of Spades 
+2024-08-14 09:36:53.6696 Info Added 0 to the pot. Current pot: 350 
+2024-08-14 09:36:53.6730 Info Dealt community card: Four of Spades 
+2024-08-14 09:36:53.6730 Info Added 0 to the pot. Current pot: 350 
+2024-08-14 09:36:53.6730 Info Dealt community card: Queen of Clubs 
+2024-08-14 09:36:53.6730 Info Added 0 to the pot. Current pot: 350 
+2024-08-14 09:36:53.6892 Info Added 156 to the pot. Current pot: 506 
+2024-08-14 09:36:53.6892 Info Dealt hole cards to ellie 
+2024-08-14 09:36:53.6892 Info Dealt hole cards to maxima 
+2024-08-14 09:37:36.3968 Info Initialized Player: maxima 
+2024-08-14 09:37:36.4105 Info Initialized Player: eterna 
+2024-08-14 09:37:36.4105 Info Initialized Player: flima 
+2024-08-14 09:37:36.4105 Info Initialized Player: ineter 
+2024-08-14 09:37:36.4105 Info Initialized Player: dfs 
+2024-08-14 09:37:36.4105 Info Added 150 to the pot. Current pot: 150 
+2024-08-14 09:37:36.4105 Info Dealt hole cards to maxima 
+2024-08-14 09:37:36.4105 Info Dealt hole cards to eterna 
+2024-08-14 09:37:36.4105 Info Dealt hole cards to flima 
+2024-08-14 09:37:36.4105 Info Dealt hole cards to ineter 
+2024-08-14 09:37:36.4105 Info Dealt hole cards to dfs 
+2024-08-14 09:38:06.8498 Info Initialized Player: maxima 
+2024-08-14 09:38:06.8629 Info Initialized Player: mellie 
+2024-08-14 09:38:06.8629 Info Initialized Player: phantom 
+2024-08-14 09:38:06.8629 Info Initialized Player: Fill 
+2024-08-14 09:38:06.8629 Info Added 150 to the pot. Current pot: 150 
+2024-08-14 09:38:06.8629 Info Dealt hole cards to maxima 
+2024-08-14 09:38:06.8629 Info Dealt hole cards to mellie 
+2024-08-14 09:38:06.8629 Info Dealt hole cards to phantom 
+2024-08-14 09:38:06.8629 Info Dealt hole cards to Fill 
+2024-08-14 09:38:13.6259 Info Added 400 to the pot. Current pot: 550 
+2024-08-14 09:38:13.6259 Info Dealt community card: Jack of Hearts 
+2024-08-14 09:38:13.6259 Info Dealt community card: Three of Diamonds 
+2024-08-14 09:38:13.6259 Info Dealt community card: Jack of Spades 
+2024-08-14 09:38:13.6259 Info Added 0 to the pot. Current pot: 550 
+2024-08-14 09:38:13.6259 Info Dealt community card: Jack of Diamonds 
+2024-08-14 09:38:13.6259 Info Added 0 to the pot. Current pot: 550 
+2024-08-14 09:38:13.6259 Info Dealt community card: Two of Diamonds 
+2024-08-14 09:38:13.6259 Info Added 0 to the pot. Current pot: 550 
+2024-08-14 09:38:13.6528 Info Added 147 to the pot. Current pot: 697 
+2024-08-14 09:38:13.6528 Info Dealt hole cards to maxima 
+2024-08-14 09:38:13.6528 Info Dealt hole cards to mellie 
+2024-08-14 09:38:13.6528 Info Dealt hole cards to phantom 
+2024-08-14 09:38:13.6528 Info Dealt hole cards to Fill 
+2024-08-14 09:38:18.7242 Info Added 392 to the pot. Current pot: 1089 
+2024-08-14 09:38:18.7242 Info Dealt community card: Four of Clubs 
+2024-08-14 09:38:18.7242 Info Dealt community card: Five of Clubs 
+2024-08-14 09:38:18.7242 Info Dealt community card: Ten of Spades 
+2024-08-14 09:38:18.7242 Info Added 0 to the pot. Current pot: 1089 
+2024-08-14 09:38:18.7242 Info Dealt community card: Seven of Clubs 
+2024-08-14 09:38:18.7242 Info Added 0 to the pot. Current pot: 1089 
+2024-08-14 09:38:18.7242 Info Dealt community card: Nine of Spades 
+2024-08-14 09:38:18.7242 Info Added 0 to the pot. Current pot: 1089 
+2024-08-14 09:38:18.7399 Info Added 174 to the pot. Current pot: 1263 
+2024-08-14 09:38:18.7399 Info Dealt hole cards to maxima 
+2024-08-14 09:38:18.7399 Info Dealt hole cards to mellie 
+2024-08-14 09:38:18.7399 Info Dealt hole cards to phantom 
+2024-08-14 09:38:18.7399 Info Dealt hole cards to Fill 
+2024-08-14 09:38:20.7452 Info Added 464 to the pot. Current pot: 1727 
+2024-08-14 09:38:20.7452 Info Dealt community card: King of Hearts 
+2024-08-14 09:38:20.7452 Info Dealt community card: Seven of Spades 
+2024-08-14 09:38:20.7452 Info Dealt community card: Three of Hearts 
+2024-08-14 09:38:20.7452 Info Added 0 to the pot. Current pot: 1727 
+2024-08-14 09:38:20.7452 Info Dealt community card: Seven of Hearts 
+2024-08-14 09:38:20.7452 Info Added 0 to the pot. Current pot: 1727 
+2024-08-14 09:38:20.7452 Info Dealt community card: Five of Hearts 
+2024-08-14 09:38:20.7452 Info Added 0 to the pot. Current pot: 1727 
+2024-08-14 09:38:20.7627 Info Added 225 to the pot. Current pot: 1952 
+2024-08-14 09:38:20.7627 Info Dealt hole cards to maxima 
+2024-08-14 09:38:20.7627 Info Dealt hole cards to mellie 
+2024-08-14 09:38:20.7627 Info Dealt hole cards to phantom 
+2024-08-14 09:38:20.7627 Info Dealt hole cards to Fill 
+2024-08-14 09:38:23.4992 Info Added 600 to the pot. Current pot: 2552 
+2024-08-14 09:38:23.4992 Info Dealt community card: Six of Spades 
+2024-08-14 09:38:23.4992 Info Dealt community card: Queen of Hearts 
+2024-08-14 09:38:23.4992 Info Dealt community card: Ace of Hearts 
+2024-08-14 09:38:23.4992 Info Added 0 to the pot. Current pot: 2552 
+2024-08-14 09:38:23.4992 Info Dealt community card: Queen of Diamonds 
+2024-08-14 09:38:23.4992 Info Added 0 to the pot. Current pot: 2552 
+2024-08-14 09:38:23.4992 Info Dealt community card: Seven of Diamonds 
+2024-08-14 09:38:23.4992 Info Added 0 to the pot. Current pot: 2552 
+2024-08-14 09:38:23.5156 Info Added 219 to the pot. Current pot: 2771 
