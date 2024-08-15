@@ -179,3 +179,95 @@
 2024-08-14 09:38:23.4992 Info Dealt community card: Seven of Diamonds 
 2024-08-14 09:38:23.4992 Info Added 0 to the pot. Current pot: 2552 
 2024-08-14 09:38:23.5156 Info Added 219 to the pot. Current pot: 2771 
+2024-08-15 06:31:15.0015 Info Initialized Player: bettey 
+2024-08-15 06:31:15.0371 Info Initialized Player: weelie 
+2024-08-15 06:31:15.0371 Info Initialized Player: wax 
+2024-08-15 06:31:15.0371 Info Dealt hole cards to bettey 
+2024-08-15 06:31:15.0371 Info Dealt hole cards to weelie 
+2024-08-15 06:31:15.0371 Info Dealt hole cards to wax 
+2024-08-15 06:31:29.2270 Info Dealt community card: Nine of Hearts 
+2024-08-15 06:31:29.2270 Info Dealt community card: Jack of Spades 
+2024-08-15 06:31:29.2270 Info Dealt community card: Ten of Hearts 
+2024-08-15 06:31:31.3532 Info Dealt community card: Eight of Hearts 
+2024-08-15 06:49:27.5688 Info Initialized Player: r 
+2024-08-15 06:49:27.5964 Info Initialized Player: tew 
+2024-08-15 06:49:27.5964 Info Dealt hole cards to r 
+2024-08-15 06:49:27.5964 Info Dealt hole cards to tew 
+2024-08-15 07:02:46.6686 Info Initialized Player: wad 
+2024-08-15 07:02:46.6930 Info Initialized Player: fe 
+2024-08-15 07:02:46.6930 Info Initialized Player: er 
+2024-08-15 07:02:46.6930 Info Initialized Player: tyy 
+2024-08-15 07:02:46.6930 Info wad posted the small blind: 10 
+2024-08-15 07:02:46.6930 Info fe posted the big blind: 20 
+2024-08-15 07:02:46.6930 Info Dealt hole cards to wad 
+2024-08-15 07:02:46.6930 Info Dealt hole cards to fe 
+2024-08-15 07:02:46.6930 Info Dealt hole cards to er 
+2024-08-15 07:02:46.6930 Info Dealt hole cards to tyy 
+2024-08-15 07:02:52.5905 Info wad called with 10 chips. 
+2024-08-15 07:08:31.8986 Info Initialized Player: we 
+2024-08-15 07:08:31.9220 Info Initialized Player: rew 
+2024-08-15 07:08:31.9220 Info Initialized Player: wdas 
+2024-08-15 07:08:31.9220 Info Initialized Player: fafs 
+2024-08-15 07:08:31.9220 Info we posted the small blind: 10 
+2024-08-15 07:08:31.9220 Info rew posted the big blind: 20 
+2024-08-15 07:08:31.9220 Info Dealt hole cards to we 
+2024-08-15 07:08:31.9220 Info Dealt hole cards to rew 
+2024-08-15 07:08:31.9220 Info Dealt hole cards to wdas 
+2024-08-15 07:08:31.9220 Info Dealt hole cards to fafs 
+2024-08-15 07:08:33.2980 Info we called with 10 chips. 
+2024-08-15 07:11:51.0475 Info Initialized Player: wezza 
+2024-08-15 07:11:51.0752 Info Initialized Player: wazzu 
+2024-08-15 07:11:51.0752 Info Initialized Player: werrla 
+2024-08-15 07:11:51.0752 Info Initialized Player: fffuck 
+2024-08-15 07:11:51.0752 Info Initialized Player: kf 
+2024-08-15 07:11:51.0752 Info wezza posted the small blind: 10 
+2024-08-15 07:11:51.0752 Info wazzu posted the big blind: 20 
+2024-08-15 07:11:51.0752 Info Dealt hole cards to wezza 
+2024-08-15 07:11:51.0752 Info Dealt hole cards to wazzu 
+2024-08-15 07:11:51.0752 Info Dealt hole cards to werrla 
+2024-08-15 07:11:51.0752 Info Dealt hole cards to fffuck 
+2024-08-15 07:11:51.0752 Info Dealt hole cards to kf 
+2024-08-15 07:11:54.1950 Info wezza called with 10 chips. 
+2024-08-15 07:12:06.7862 Info wazzu raised with 500 chips. 
+2024-08-15 07:12:23.8443 Info werrla called with 20 chips. 
+2024-08-15 07:12:24.8743 Info fffuck called with 20 chips. 
+2024-08-15 07:12:25.6713 Info kf called with 20 chips. 
+2024-08-15 07:12:25.6713 Info Dealt community card: Jack of Hearts 
+2024-08-15 07:12:25.6713 Info Dealt community card: Three of Diamonds 
+2024-08-15 07:12:25.6713 Info Dealt community card: Eight of Clubs 
+2024-08-15 07:12:26.7479 Info wezza called with 500 chips. 
+2024-08-15 07:13:17.1561 Info wazzu raised with 20 chips. 
+2024-08-15 07:13:25.4214 Info werrla called with 500 chips. 
+2024-08-15 07:13:26.8687 Info fffuck called with 500 chips. 
+2024-08-15 07:13:27.7370 Info kf called with 500 chips. 
+2024-08-15 07:13:27.7370 Info Dealt community card: Three of Spades 
+2024-08-15 07:13:31.5073 Info wezza called with 20 chips. 
+2024-08-15 07:38:53.8740 Info Initialized Player: hello 
+2024-08-15 07:38:53.8988 Info Initialized Player: fixx 
+2024-08-15 07:38:53.8988 Info hello posted the small blind: 10 
+2024-08-15 07:38:53.8988 Info fixx posted the big blind: 20 
+2024-08-15 07:38:53.8988 Info Dealt hole cards to hello 
+2024-08-15 07:38:53.9024 Info Dealt hole cards to fixx 
+2024-08-15 07:38:59.4747 Info hello called with 10 chips. 
+2024-08-15 07:39:02.3153 Info Dealt community card: Three of Hearts 
+2024-08-15 07:39:02.3153 Info Dealt community card: King of Diamonds 
+2024-08-15 07:39:02.3153 Info Dealt community card: Two of Hearts 
+2024-08-15 07:39:07.9130 Info Dealt community card: King of Spades 
+2024-08-15 07:39:11.3866 Info Dealt community card: Ace of Clubs 
+2024-08-15 07:44:18.8695 Info Initialized Player: fas 
+2024-08-15 07:44:18.8923 Info Initialized Player: sad 
+2024-08-15 07:44:18.8923 Info Initialized Player: safd 
+2024-08-15 07:44:18.8923 Info Initialized Player: dsad 
+2024-08-15 07:44:18.8923 Info safd posted the small blind: 10 
+2024-08-15 07:44:18.8923 Info dsad posted the big blind: 20 
+2024-08-15 07:44:18.8923 Info Dealt hole cards to fas 
+2024-08-15 07:44:18.8923 Info Dealt hole cards to sad 
+2024-08-15 07:44:18.8923 Info Dealt hole cards to safd 
+2024-08-15 07:44:18.8923 Info Dealt hole cards to dsad 
+2024-08-15 07:44:23.1211 Info fas called with 20 chips. 
+2024-08-15 07:44:24.9359 Info sad called with 20 chips. 
+2024-08-15 07:44:26.1780 Info safd called with 10 chips. 
+2024-08-15 07:44:30.0142 Info Dealt community card: Eight of Clubs 
+2024-08-15 07:44:30.0142 Info Dealt community card: Ten of Clubs 
+2024-08-15 07:44:30.0142 Info Dealt community card: Jack of Diamonds 
+2024-08-15 07:44:37.7214 Info sad raised with 5000 chips. 

@@ -2,67 +2,59 @@ namespace SuperSimplePoker
 {
     public static class Display
     {
-        public static void PrintCommunityCards(List<Card> communityCards)
+        public static void PrintPlayerStatus(string playerName, int money, int currentBet, int minimumBet)
         {
-            Console.WriteLine("Community Cards:");
-            for (int i = 0; i < communityCards.Count; i++)
-            {
-                Console.WriteLine($"Card {i + 1}: {communityCards[i].Rank} of {communityCards[i].Suit}");
-            }
+            Console.WriteLine($"--- {playerName}'s Turn ---");
+            Console.WriteLine($"Money left: {money}");
+            Console.WriteLine($"Current Bet: {currentBet}");
+            Console.WriteLine($"Minimum Bet to Call: {minimumBet}");
             Console.WriteLine();
         }
 
-        public static void PrintPlayerStatus(PlayerGameInfo player, int minimumBet, List<Card> communityCards)
+        public static void PrintPlayerJoinQuitOptions()
         {
-            Console.WriteLine($"--- {player.Player.Name}'s Turn ---");
-            Console.WriteLine($"Money left: {player.Money}");
-            Console.WriteLine($"Current Bet: {player.Bet}");
-            Console.WriteLine($"Minimum Bet to Call: {minimumBet}");
-
-            Console.WriteLine("\nYour Cards:");
-            PrintPlayerCards(player.Player.Name, player.UnsortedHand);
-
-            Console.WriteLine("\nCommunity Cards:");
-            PrintCommunityCards(communityCards);
-
-            player.HandEvaluator = new HandEvaluator(player.UnsortedHand.Concat(communityCards).ToList());
-            Console.WriteLine($"Your Best Hand: {player.HandEvaluator.EvaluateHand()}");
-            Console.WriteLine("------------------------------\n");
+            Console.WriteLine("\nWould anyone like to join or quit the game?");
+            Console.WriteLine("Enter 'J' to join, 'Q' to quit, or press Enter to continue:");
         }
 
-        public static void PrintPlayerCards(string playerName, List<Card> cards)
+        public static void PrintPlayerOptions(string options)
         {
-            Console.WriteLine($"{playerName}'s Cards:");
-            for (int i = 0; i < cards.Count; i++)
-            {
-                Console.WriteLine($"Card {i + 1}: {cards[i].Rank} of {cards[i].Suit}");
-            }
+            Console.WriteLine(options);
         }
 
-        public static void PrintBestCombination(string playerName, HandRankingEnum bestCombination)
+        public static void PromptPlayerChoice()
         {
-            Console.WriteLine($"{playerName}'s Best Hand: {bestCombination}\n");
+            Console.Write("Enter your choice (K for Check, C for Call, R for Raise, A for All-In, F for Fold): ");
         }
 
-        public static void PrintPot(int pot)
+        public static void PromptRaiseAmount()
         {
-            Console.WriteLine($"Current Pot: {pot}\n");
+            Console.Write("How much do you want to raise? ");
         }
 
-        public static void PrintRoundWinner(string playerName, HandRankingEnum combination)
+        public static void PrintRoundStart(string roundName)
         {
-            Console.WriteLine($"*** {playerName} wins the round with {combination}! ***\n");
+            Console.WriteLine($"\n--- {roundName} Betting Round ---\n");
         }
 
-        public static void PrintUltimateWinner(string playerName, int money)
+        public static void PrintRoundWinner(string playerName, string winningHand)
         {
-            Console.WriteLine($"### {playerName} is the Ultimate Winner! ###");
-            Console.WriteLine($"Total Money Won: {money}\n");
+            Console.WriteLine($"\n{playerName} won the round with {winningHand}!");
         }
 
-        public static void PrintPlayerKickedOut(string playerName)
+        public static void PrintUltimateWinner(string playerName, int totalMoney)
         {
-            Console.WriteLine($"--- {playerName} has been eliminated from the game. ---");
+            Console.WriteLine($"\n{playerName} is the ultimate winner with a total of {totalMoney} chips!");
+        }
+
+        public static void PrintPlayerCard(string cardDescription, int cardNumber)
+        {
+            Console.WriteLine($"Hole Card {cardNumber}: {cardDescription}");
+        }
+
+        public static void PrintCommunityCard(string cardDescription, int cardNumber)
+        {
+            Console.WriteLine($"Community Card {cardNumber}: {cardDescription}");
         }
 
         public static void PrintCallAmount(int callAmount)
@@ -70,19 +62,9 @@ namespace SuperSimplePoker
             Console.WriteLine($"You called for {callAmount} chips.");
         }
 
-        public static void PrintCheck()
-        {
-            Console.WriteLine("You checked.");
-        }
-
-        public static void PrintAllIn(int allInMoney)
-        {
-            Console.WriteLine($"You went all in with {allInMoney} chips!");
-        }
-
         public static void PrintRaiseAmount(int raiseAmount)
         {
-            Console.WriteLine($"You raised the bet by {raiseAmount} chips.");
+            Console.WriteLine($"You raised by {raiseAmount} chips.");
         }
 
         public static void PrintFold()
@@ -90,50 +72,19 @@ namespace SuperSimplePoker
             Console.WriteLine("You folded.");
         }
 
+        public static void PrintAllIn(int allInAmount)
+        {
+            Console.WriteLine($"You went all-in with {allInAmount} chips.");
+        }
+
+        public static void PrintCheck()
+        {
+            Console.WriteLine("You checked.");
+        }
+
         public static void PrintNewLine()
         {
             Console.WriteLine();
-        }
-
-        public static char GetPlayerChoice(PlayerGameInfo player, int minimumBet)
-        {
-            Console.WriteLine("Your options:");
-            if (player.Money > minimumBet)
-            {
-                if (player.Bet < minimumBet)
-                {
-                    Console.WriteLine($"C - Call (Match the bet of {minimumBet - player.Bet} chips)");
-                }
-                else
-                {
-                    Console.WriteLine("C - Check");
-                }
-                Console.WriteLine("R - Raise");
-            }
-
-            Console.WriteLine("A - All In");
-            Console.WriteLine("F - Fold");
-
-            Console.Write("Enter your choice: ");
-            return Convert.ToChar(Console.ReadLine().ToUpper());
-        }
-
-        public static int GetRaiseAmount()
-        {
-            Console.Write("How much do you want to raise? ");
-            return Convert.ToInt32(Console.ReadLine());
-        }
-
-        public static void PrintBlinds(string smallBlindPlayerName, string bigBlindPlayerName, int smallBlindAmount, int bigBlindAmount)
-        {
-            Console.WriteLine($"{smallBlindPlayerName} posts the Small Blind: {smallBlindAmount} chips.");
-            Console.WriteLine($"{bigBlindPlayerName} posts the Big Blind: {bigBlindAmount} chips.");
-            Console.WriteLine();
-        }
-
-        public static void PrintRoundStart(string roundName)
-        {
-            Console.WriteLine($"\n--- Starting {roundName} ---\n");
         }
     }
 }
