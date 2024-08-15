@@ -1,0 +1,15 @@
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\bin\Debug\net8.0\AfterUsing.exe
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\bin\Debug\net8.0\AfterUsing.deps.json
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\bin\Debug\net8.0\AfterUsing.runtimeconfig.json
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\bin\Debug\net8.0\AfterUsing.dll
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\bin\Debug\net8.0\AfterUsing.pdb
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\obj\Debug\net8.0\AfterUsing.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\obj\Debug\net8.0\AfterUsing.AssemblyInfoInputs.cache
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\obj\Debug\net8.0\AfterUsing.AssemblyInfo.cs
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\obj\Debug\net8.0\AfterUsing.csproj.CoreCompileInputs.cache
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\obj\Debug\net8.0\AfterUsing.sourcelink.json
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\obj\Debug\net8.0\AfterUsing.dll
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\obj\Debug\net8.0\refint\AfterUsing.dll
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\obj\Debug\net8.0\AfterUsing.pdb
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\obj\Debug\net8.0\AfterUsing.genruntimeconfig.cache
+c:\Users\ACER\Desktop\New folder\Batch11Formulatrix\Individual Project\Present State Design Pattern\AfterUsing\obj\Debug\net8.0\ref\AfterUsing.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj": {}
+    "c:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Present State Design Pattern\\BeforeUsing\\BeforeUsing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj": {
+    "c:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Present State Design Pattern\\BeforeUsing\\BeforeUsing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
-        "projectName": "Super_Simple_Poker",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\Super_Simple_Poker.csproj",
+        "projectUniqueName": "c:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Present State Design Pattern\\BeforeUsing\\BeforeUsing.csproj",
+        "projectName": "BeforeUsing",
+        "projectPath": "c:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Present State Design Pattern\\BeforeUsing\\BeforeUsing.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Super_Simple_Poker\\obj\\",
+        "outputPath": "c:\\Users\\ACER\\Desktop\\New folder\\Batch11Formulatrix\\Individual Project\\Present State Design Pattern\\BeforeUsing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,16 +42,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "NLog": {
-              "target": "Package",
-              "version": "[5.3.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

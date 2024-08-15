@@ -1,0 +1,5 @@
+
+Penjelasan Sebelum Menggunakan State Pattern
+Masalah: Kode di atas mengelola status dengan menggunakan boolean dan banyak kondisi if-else. 
+Ini menyebabkan kode menjadi lebih sulit dipahami dan dipelihara, 
+terutama jika kondisi menjadi lebih kompleks.

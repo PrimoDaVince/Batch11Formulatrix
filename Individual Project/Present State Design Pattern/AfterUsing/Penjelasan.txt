@@ -1,0 +1,8 @@
+Penjelasan Setelah Menggunakan State Pattern
+Organisasi yang Lebih Baik: Setiap state sekarang berada di dalam kelasnya masing-masing 
+(IdleState, CoinInsertedState, OutOfStockState), dan transisi antar state diatur oleh 
+metode SetState dalam VendingMachine.
+Peningkatan Skalabilitas: Jika Anda perlu menambahkan state baru atau mengubah logika untuk state 
+yang ada, Anda hanya perlu memodifikasi atau menambah kelas baru tanpa merusak kode yang sudah ada.
+Pemeliharaan Lebih Mudah: Kode lebih mudah dibaca, di-debug, dan diperbaiki karena aliran logika 
+dibagi dengan jelas ke dalam state yang berbeda.
